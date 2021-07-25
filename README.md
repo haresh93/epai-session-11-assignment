@@ -1,5 +1,8 @@
 # Session 11 EPAI 3 Assignment
 
+Here is the Google Colab link where various operations on the PolygonsIterator have been showcased - 
+https://colab.research.google.com/drive/1WBiUHKWihnEuKMsFQcuPffVZ3yoNzi2n?usp=sharing
+
 ## Polygon class
 
 The Polygon Class of the previous assignment is used without any changes and the test_polygon is also used from the previous assignment which tests the polygon class.

@@ -64,7 +64,7 @@ class Polygons(object):
             max_efficience_polygon
         """
         return f"""
-            A Polygon sequence Object with the following properties
+            A Polygon iterable Object with the following properties
                 length_of_the_sequence - {self.__len__()} 
                 max_num_of_vertices    - {self.max_num_of_vertices}
                 circum_radius          - {self.circum_radius}
@@ -108,4 +108,14 @@ class Polygons(object):
                 polygon = self._polygons_obj.__getitem__(self._index)
                 self._index += 1
                 return polygon
+        
+        def __repr__(self):
+            """
+                Returns the representation of the PolygonsIterator with the total length and the current index of the Iterator
+            """
+            return f"""
+               The Polygons Iterator Object with the following properties:
+                    Length of the Iterable - {self._polygons_obj.__len__()}
+                    Current Index          - {self._index} 
+            """
     
